@@ -1,6 +1,6 @@
 name: Java CI
 
-on: [ push, pull_request ]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -13,6 +13,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        working-directory: ./Bai10
         run: mvn package
+
 
