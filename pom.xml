@@ -13,7 +13,8 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>9.9.9</version>
+            <version>1.4.14</version>
+<!--            dependency: ch.qos.logback:logback-classic:jar:9.9.9 (compile)-->
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
